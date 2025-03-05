@@ -15,5 +15,5 @@ text = re.sub(r'[^\w\s]', '', text)
 text = text.replace('ё', 'е').replace('ъ', 'ь')
 
 # Запись в файл
-with open('file3.txt', 'w') as file:
+with open('3.txt', 'w') as file:
     file.write(text)
